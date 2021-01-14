@@ -25,7 +25,7 @@ function Snake:GetTailGrid()
 		return 0,0
 	end
 
-	local tail = self.BodyArray[#self.BodyArray]
+	local tail = self.BodyArray[#self.BodyArray] -- 数组的最后一个元素
 
 	return tail.X,tail.Y
 
